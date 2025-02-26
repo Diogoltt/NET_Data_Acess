@@ -1,0 +1,45 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AulaConexao", "AulaConexao", "{173A103E-C6E1-B480-985E-D2EA75A316F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO", "ADO", "{5F74D103-8351-C532-D85D-A1F19B6E7117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1", "AulaConexao\ADO\Exemplo1\Exemplo1.csproj", "{5F23AE33-34D4-800C-3EA8-56555E45EA71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{C30221DD-CC86-4CAE-9124-E6FFF81B05DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemplo1", "Exemplo1", "{3C1D4981-0227-4F8E-94AA-FBF17107A019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "AulaConexao\EntityFramework\Exemplo1\Entity\Entity.csproj", "{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F23AE33-34D4-800C-3EA8-56555E45EA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F23AE33-34D4-800C-3EA8-56555E45EA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F23AE33-34D4-800C-3EA8-56555E45EA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F23AE33-34D4-800C-3EA8-56555E45EA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F74D103-8351-C532-D85D-A1F19B6E7117} = {173A103E-C6E1-B480-985E-D2EA75A316F7}
+		{5F23AE33-34D4-800C-3EA8-56555E45EA71} = {5F74D103-8351-C532-D85D-A1F19B6E7117}
+		{C30221DD-CC86-4CAE-9124-E6FFF81B05DB} = {173A103E-C6E1-B480-985E-D2EA75A316F7}
+		{3C1D4981-0227-4F8E-94AA-FBF17107A019} = {C30221DD-CC86-4CAE-9124-E6FFF81B05DB}
+		{4BF4B6CC-F13E-48D2-A581-F454DCE7F5E9} = {3C1D4981-0227-4F8E-94AA-FBF17107A019}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2AA3EF0-B2A1-410A-A1DA-48EA6F58BB11}
+	EndGlobalSection
+EndGlobal
