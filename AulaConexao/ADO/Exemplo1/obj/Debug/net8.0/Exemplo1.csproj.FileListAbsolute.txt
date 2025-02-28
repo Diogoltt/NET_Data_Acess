@@ -17,3 +17,4 @@ C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\ADO\Exemplo1\o
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\ADO\Exemplo1\obj\Debug\net8.0\Exemplo1.pdb
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\ADO\Exemplo1\obj\Debug\net8.0\Exemplo1.genruntimeconfig.cache
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\ADO\Exemplo1\obj\Debug\net8.0\ref\Exemplo1.dll
+C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\ADO\Exemplo1\obj\Debug\net8.0\Exemplo1.sourcelink.json

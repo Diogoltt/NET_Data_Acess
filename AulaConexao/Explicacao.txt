@@ -1,2 +1,4 @@
 Formas de Conexão de Banco de Dados Relacional com C#
 1. ADO.Net
+2. Entity Framework
+3. Dapper

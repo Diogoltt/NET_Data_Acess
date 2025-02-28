@@ -116,3 +116,4 @@ C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\EntityFramewor
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\EntityFramework\Exemplo1\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\EntityFramework\Exemplo1\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
 C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\EntityFramework\Exemplo1\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\diogogomes\Documents\development\DataConnect\AulaConexao\EntityFramework\Exemplo1\Entity\obj\Debug\net8.0\Entity.sourcelink.json
