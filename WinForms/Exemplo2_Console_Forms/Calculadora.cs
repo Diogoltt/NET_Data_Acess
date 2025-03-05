@@ -8,6 +8,10 @@ namespace Exemplo2_Console_Forms
         private System.Windows.Forms.TextBox TextBox2;
         private System.Windows.Forms.Button Button1;
 
+        private Button Button2;
+
+        private TextBox textBox3;
+
         public Calculadora()
         {
             this.components = new System.ComponentModel.Container();
@@ -24,6 +28,18 @@ namespace Exemplo2_Console_Forms
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.TextBox2 = new System.Windows.Forms.TextBox();
             this.Button1 = new System.Windows.Forms.Button();
+            this.Button2 = new System.Windows.Forms.Button();
+
+            this.Button2.Location = new System.Drawing.Point(150, 140); // Localização do novo botão
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(100, 40);
+            this.Button2.Text = "Segunda Tela";
+            this.Button2.Font = new System.Drawing.Font("Arial", 10, System.Drawing.FontStyle.Bold);
+            this.Button2.BackColor = System.Drawing.Color.DarkCyan;
+            this.Button2.ForeColor = System.Drawing.Color.White;
+            this.Button2.FlatStyle = FlatStyle.Flat;
+            this.Button2.FlatAppearance.BorderSize = 0;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
 
             this.Label1.AutoSize = true;
             this.Label1.Location = new System.Drawing.Point(30, 30);
@@ -67,6 +83,8 @@ namespace Exemplo2_Console_Forms
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.TextBox2);
             this.Controls.Add(this.Button1);
+            this.Controls.Add(this.Button2); // Adiciona o novo botão à tela
+
         }
 
         private void Button1_MouseEnter(object sender, EventArgs e)
@@ -100,5 +118,13 @@ namespace Exemplo2_Console_Forms
                 MessageBox.Show("Digite apenas números inteiros.");
             }
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            // Quando o botão for clicado, abre a segunda tela
+            Calculadora2 novaTela = new Calculadora2();
+            novaTela.Show(); // Abre a segunda tela
+        }
+
     }
 }
