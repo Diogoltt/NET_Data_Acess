@@ -1,0 +1,15 @@
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\bin\Debug\net8.0-windows\Exemplo2_Console_Forms.exe
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\bin\Debug\net8.0-windows\Exemplo2_Console_Forms.deps.json
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\bin\Debug\net8.0-windows\Exemplo2_Console_Forms.runtimeconfig.json
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\bin\Debug\net8.0-windows\Exemplo2_Console_Forms.dll
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\bin\Debug\net8.0-windows\Exemplo2_Console_Forms.pdb
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.AssemblyInfoInputs.cache
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.AssemblyInfo.cs
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.csproj.CoreCompileInputs.cache
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.sourcelink.json
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.dll
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\refint\Exemplo2_Console_Forms.dll
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.pdb
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\Exemplo2_Console_Forms.genruntimeconfig.cache
+C:\Users\diogogomes\Documents\development\DataConnect\WinForms\Exemplo2_Console_Forms\obj\Debug\net8.0-windows\ref\Exemplo2_Console_Forms.dll
