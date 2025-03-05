@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperExemplo", "AulaConexa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExercise", "EntityFrameworkExercise\EntityFrameworkExercise.csproj", "{35BD3C72-47AE-4A68-99E5-28022EE9B320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WForms", "WForms\WForms.csproj", "{5973C291-F9BF-48C0-A2D4-D685A9CF83E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{35BD3C72-47AE-4A68-99E5-28022EE9B320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35BD3C72-47AE-4A68-99E5-28022EE9B320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35BD3C72-47AE-4A68-99E5-28022EE9B320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5973C291-F9BF-48C0-A2D4-D685A9CF83E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5973C291-F9BF-48C0-A2D4-D685A9CF83E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5973C291-F9BF-48C0-A2D4-D685A9CF83E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5973C291-F9BF-48C0-A2D4-D685A9CF83E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
