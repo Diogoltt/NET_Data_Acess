@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Exemplo2_Console_Forms")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EF_Forms_Exercise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c889667f0f49ab6be0b85ff6a0e8b15ff01063")]
-[assembly: System.Reflection.AssemblyProductAttribute("Exemplo2_Console_Forms")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Exemplo2_Console_Forms")]
+[assembly: System.Reflection.AssemblyProductAttribute("EF_Forms_Exercise")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EF_Forms_Exercise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
