@@ -1,0 +1,18 @@
+# Pastas de build e saída
+bin/
+obj/
+
+# Arquivos específicos gerados pelo build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.sourcelink.json
+
+# Configurações locais do usuário
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
