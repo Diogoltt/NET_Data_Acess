@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diogo\\OneDrive\\Documentos\\dev\\DigixRepo\\NET_Data_Acess\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj": {}
+    "C:\\Users\\diogogomes\\Documents\\development\\DataConnect\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo\\OneDrive\\Documentos\\dev\\DigixRepo\\NET_Data_Acess\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj": {
+    "C:\\Users\\diogogomes\\Documents\\development\\DataConnect\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo\\OneDrive\\Documentos\\dev\\DigixRepo\\NET_Data_Acess\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj",
+        "projectUniqueName": "C:\\Users\\diogogomes\\Documents\\development\\DataConnect\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj",
         "projectName": "EF_Forms_Exercise",
-        "projectPath": "C:\\Users\\diogo\\OneDrive\\Documentos\\dev\\DigixRepo\\NET_Data_Acess\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj",
-        "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo\\OneDrive\\Documentos\\dev\\DigixRepo\\NET_Data_Acess\\WinForms\\EF_Forms_Exercise\\obj\\",
+        "projectPath": "C:\\Users\\diogogomes\\Documents\\development\\DataConnect\\WinForms\\EF_Forms_Exercise\\EF_Forms_Exercise.csproj",
+        "packagesPath": "C:\\Users\\diogogomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diogogomes\\Documents\\development\\DataConnect\\WinForms\\EF_Forms_Exercise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diogogomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-Windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

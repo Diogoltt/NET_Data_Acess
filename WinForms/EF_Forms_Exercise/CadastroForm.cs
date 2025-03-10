@@ -30,6 +30,8 @@ namespace EF_Forms_Exercise
 
         private Crud crud;
 
+        private TableLayoutPanel tableLayoutPanel1;
+
         public CadastroForm()
         {
             // Inicializar o objeto CRUD
@@ -40,6 +42,24 @@ namespace EF_Forms_Exercise
             this.Text = "Sistema de Gerenciamento";
             this.BackColor = Color.White;
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.Sizable; // Redimensionável
+
+            tableLayoutPanel1 = new TableLayoutPanel
+            {
+                Dock = DockStyle.Top,
+                ColumnCount = 2,
+                RowCount = 5,
+                AutoSize = true,
+                Padding = new Padding(10)
+            };
+
+            // Definir as proporções das colunas
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
+
+            // Adicionar imagem de fundo
+            this.BackgroundImage = Image.FromFile("Resources/dachschund.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
 
             // Criar o TabControl
             tabControl = new TabControl
@@ -76,12 +96,22 @@ namespace EF_Forms_Exercise
             Font fontePadrao = new Font("Arial", 10, FontStyle.Bold);
             Font fonteAlternativa = new Font("Arial", 10);
 
+            try
+            {
+                tabUsuarios.BackgroundImage = Image.FromFile("Resources/dachschund.jpg");
+                tabUsuarios.BackgroundImageLayout = ImageLayout.Stretch; 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar imagem: " + ex.Message);
+            }
+
             // Labels
-            lblUsuarioId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy };
-            lblNomeUsuario = new Label { Text = "Nome:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy };
-            lblPassword = new Label { Text = "Senha:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy };
-            lblRamal = new Label { Text = "Ramal:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy };
-            lblEspecialidade = new Label { Text = "Especialidade:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy };
+            lblUsuarioId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblNomeUsuario = new Label { Text = "Nome:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblPassword = new Label { Text = "Senha:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblRamal = new Label { Text = "Ramal:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblEspecialidade = new Label { Text = "Especialidade:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
 
             // TextBoxes
             txtUsuarioId = new TextBox { Location = new Point(150, 20), Width = 200, Font = fonteAlternativa };
@@ -134,14 +164,24 @@ namespace EF_Forms_Exercise
             Font fontePadrao = new Font("Arial", 10, FontStyle.Bold);
             Font fonteAlternativa = new Font("Arial", 10);
 
+            try
+            {
+                tabMaquinas.BackgroundImage = Image.FromFile("Resources/dachschund.jpg");
+                tabMaquinas.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar imagem: " + ex.Message);
+            }
+
             // Labels
-            lblMaquinaId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy };
-            lblTipo = new Label { Text = "Tipo:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy };
-            lblVelocidade = new Label { Text = "Velocidade:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy };
-            lblHardDisk = new Label { Text = "Hard Disk:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy };
-            lblPlacaRede = new Label { Text = "Placa de Rede:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy };
-            lblMemoriaRam = new Label { Text = "Memória RAM:", Location = new Point(350, 20), Font = fontePadrao, ForeColor = Color.Navy };
-            lblUsuarioIdMaquina = new Label { Text = "ID do Usuário:", Location = new Point(350, 70), Font = fontePadrao, ForeColor = Color.Navy };
+            lblMaquinaId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblTipo = new Label { Text = "Tipo:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblVelocidade = new Label { Text = "Velocidade:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblHardDisk = new Label { Text = "Hard Disk:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblPlacaRede = new Label { Text = "Placa de Rede:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblMemoriaRam = new Label { Text = "Memória RAM:", Location = new Point(350, 20), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblUsuarioIdMaquina = new Label { Text = "ID do Usuário:", Location = new Point(350, 70), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
 
             // TextBoxes
             txtMaquinaId = new TextBox { Location = new Point(150, 20), Width = 180, Font = fonteAlternativa };
@@ -200,12 +240,22 @@ namespace EF_Forms_Exercise
             Font fontePadrao = new Font("Arial", 10, FontStyle.Bold);
             Font fonteAlternativa = new Font("Arial", 10);
 
+            try
+            {
+                tabSoftwares.BackgroundImage = Image.FromFile("Resources/dachschund.jpg");
+                tabSoftwares.BackgroundImageLayout = ImageLayout.Stretch; 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar imagem: " + ex.Message);
+            }
+
             // Labels
-            lblSoftwareId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy };
-            lblProduto = new Label { Text = "Produto:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy };
-            lblHardDiskSoftware = new Label { Text = "Hard Disk:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy };
-            lblMemoriaRamSoftware = new Label { Text = "Memória RAM:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy };
-            lblMaquinaIdSoftware = new Label { Text = "ID da Máquina:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy };
+            lblSoftwareId = new Label { Text = "ID:", Location = new Point(20, 20), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblProduto = new Label { Text = "Produto:", Location = new Point(20, 70), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblHardDiskSoftware = new Label { Text = "Hard Disk:", Location = new Point(20, 120), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblMemoriaRamSoftware = new Label { Text = "Memória RAM:", Location = new Point(20, 170), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
+            lblMaquinaIdSoftware = new Label { Text = "ID da Máquina:", Location = new Point(20, 220), Font = fontePadrao, ForeColor = Color.Navy, AutoSize = true };
 
             // TextBoxes
             txtSoftwareId = new TextBox { Location = new Point(150, 20), Width = 200, Font = fonteAlternativa };
