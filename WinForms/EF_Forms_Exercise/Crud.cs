@@ -69,7 +69,7 @@ namespace EF_Forms_Exercise
                         maquina.UsuarioId = null; // Define a chave estrangeira como NULL
                         maquina.Usuario = null;
                     }
-                    
+
                     db.SaveChanges(); // Salva as alterações nas máquinas primeiro
 
                     // Remove o usuário
@@ -126,6 +126,34 @@ namespace EF_Forms_Exercise
             }
         }
 
+        public void DeletarMaquina(int id)
+        {
+            using (var db = new Ligacao())
+            {
+                var maquina = db.Maquinas
+                    .Include(m => m.Softwares) // Carrega os softwares associados à máquina
+                    .FirstOrDefault(m => m.Id == id);
+
+                if (maquina != null)
+                {
+                    // Remove os softwares associados à máquina
+                    if (maquina.Softwares != null && maquina.Softwares.Any())
+                    {
+                        db.Softwares.RemoveRange(maquina.Softwares);
+                    }
+
+                    // Remove a máquina
+                    db.Maquinas.Remove(maquina);
+                    db.SaveChanges();
+                    Console.WriteLine("Máquina deletada com sucesso e softwares associados removidos!");
+                }
+                else
+                {
+                    Console.WriteLine("Máquina não encontrada.");
+                }
+            }
+        }
+
         public void InserirSoftware(int id, string produto, int hardDisk, int memoriaRam, int maquinaId)
         {
             using (var db = new Ligacao())
@@ -162,5 +190,23 @@ namespace EF_Forms_Exercise
                 }
             }
         }
+        public void DeletarSoftware(int id)
+        {
+            using (var db = new Ligacao())
+            {
+                var software = db.Softwares.Find(id);
+                if (software != null)
+                {
+                    db.Softwares.Remove(software);
+                    db.SaveChanges();
+                    Console.WriteLine("Software deletado com sucesso!");
+                }
+                else
+                {
+                    Console.WriteLine("Software não encontrado.");
+                }
+            }
+        }
+
     }
 }
